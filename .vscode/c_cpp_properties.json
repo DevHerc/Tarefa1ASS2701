@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${userHome}/.pico-sdk/sdk/2.1.0/**"
+            ],
+            "forcedInclude": [
+                "${userHome}/.pico-sdk/sdk/2.1.0/src/common/pico_base_headers/include/pico.h",
+                "${workspaceFolder}/build/generated/pico_base/pico/config_autogen.h"
+            ],
+            "defines": [],
+            "compilerPath": "${userHome}/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc.exe",
+            "compileCommands": [
+                "${workspaceFolder}/build/compile_commands.json"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm"
+        },
+        {
+            "name": "C:/Users/HERSA/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc.exe",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86"
+        },
+        {
+            "name": "C:\\Users\\HERSA\\.pico-sdk\\toolchain\\13_3_Rel1\\bin\\",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}
